@@ -1,0 +1,18 @@
+#include <iostream>
+
+// This is mine Calculator of Addition //
+
+using namespace std;
+
+int main(){
+int x;
+int y;
+
+cout << "Welcome to Edimar Addition Calculator \n" << "Please, Enter your First Number" << endl;
+cin >> x;
+cout << " Now enter your second number" << endl;
+cin >> y;
+x = x + y;
+cout << x << endl;
+
+}
