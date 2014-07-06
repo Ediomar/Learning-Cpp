@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    cout << "Welcome to Edimar's C++ Calculator of Substraction \n" << "Credit to Edimar Valentin Kery \n" << "Please enter your first number:" << endl;
+    int x;
+    cin >> x;
+    cout << "You entered:" << " " << x << "\n" << "Please, Enter your second number:" << endl;
+    int y;
+    cin >> y;
+    x = x - y;
+    cout << "Result:" << x << endl;
+    cout << "What's your name?" << endl;
+    string  name;
+    cin >> name;
+    cout << "Thanks" << " " << name << " " << "For using Edimar's C++ Calculator of Substraction" << endl;
+
+
+}
