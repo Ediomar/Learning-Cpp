@@ -1,0 +1,55 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+int main()
+{
+ cout << "What's your name?" << endl;
+ string name;
+ cin >> name;
+ cout << "Welcome " << name <<" to Edimar English quiz written in C++ \n" << "C++ is the most used programming language in the world" << endl;
+ cout << " Are you ready to begin the quiz? \n" << "! You may only answer yes or no when requested" << endl;
+ string yn;
+ cin >> yn;
+ if (yn == "yes")
+ {
+     cout << "Perfect, Lets get started!" << endl;
+     cout << "A series of Question will be asked and i expect you to answer them" << endl;
+     cout << "First Question: How old are you?" << endl;
+     string age;
+     cin >> age;
+     cout << age << "! " << "You're really old..." << endl;
+     cout << "Second Question: How many brothers and sisters you have?" << endl;
+     string bs;
+     cin >> bs;
+     cout << "That's a big family of " << bs << " brothers and sisters" << endl;
+     cout << "Last Question: What programming language is this compiled on?" << endl;
+     string lan;
+     cin >> lan;
+     if (lan == "C++" || lan == "Cpp")
+     {
+         cout << "You have anwsered perfectly, Thanks for taking my english quiz." << endl;
+
+     }
+     else
+        cout << "Wrong" << endl;
+
+
+
+
+
+
+
+
+ }
+ else
+    cout << "Alright, you can try again later..." << endl;
+
+
+
+
+}
+
+
+
